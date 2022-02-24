@@ -1275,8 +1275,8 @@ def main(WIN,WIDHT,HEIGHT,FPS):
                     
 
 
-        true = ['LRS-Foerderung Kl. 7-8','LRS-Foerderung Kl. 9','LRS Foerderung Kl.10 gerade Woche','LRS Foerderung Kl.11 ungerade Woche','Vorbereitung Mathematikolympiaden Kl. 7/8','Vorbereitung Mathematikolympiaden Kl. 9/10','Vorbereitung Mathematikolympiaden Kl. 11-12','Foerderunterricht Mathematik Kl. 7 u. 8','Foerderunterricht Mathematik Kl. 9','Foerderunterricht Mathematik Kl.10','Robotik Kl.7/8','Robotik Kl.9/10','Formel 1 in der Schule','AG Schach Anfänger und Fortgeschrittene','AG – Bienen','Foerderunterricht Englisch Kl. 7 u. 8','Foerderunterricht Englisch Kl. 9','Foerderunterricht Englisch Kl.10','Jugend debattiert Kl.7/8 und Kl.9/10','Schülerfirma „school fashion“ Kl.7/8 und Kl.9/10','Schülercafé „Schüleroase“ Kl.7/8 und Kl.9/10','Streitschlichter Kl.7/8 und Kl.9/10','Schulsanitäter Kl.7/8 und Kl.9/10','AG – Kreatives Nähen','AG Kanu','AG Tischtennis','Foerderunterricht Deutsch Kl. 7/8','Foerderunterricht Deutsch Kl 9/10','Gitarrenunterricht','Foerderunterricht Latein Klasse 7/8','Foerderunterricht Latein 9','Stark im Schulalltag','Volleyball Klasse 7/8','Volleyball Klasse 9/10','Volleyball Klasse 11/12'] # echte AGs
-        false = ['Steuern','Italienisch','Spanisch','Sportschießen','Fußball Kl. 7-10','Fußball Kl.11-12','Segeln','Cheerlieding']
+        true = ['true'] # place here some real things about your school
+        false = 'false'] # place here some wrong things about your school
 
         blue_points , red_points = 0,0
 
@@ -2085,7 +2085,7 @@ def main(WIN,WIDHT,HEIGHT,FPS):
                     winner = true_or_false(WIN,WIDHT,HEIGHT,FPS)
                 if random_game == 3:
                     explain(WIN, WIDHT, HEIGHT, FPS, "hangman")
-                    possible_words = ["namen"]
+                    possible_words = ["names"] # place here some names
                     winner = hangman(WIN, WIDHT, HEIGHT, possible_words)
                 if random_game == 4:
                     explain(WIN, WIDHT, HEIGHT, FPS, "catch")
